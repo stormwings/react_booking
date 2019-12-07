@@ -1,0 +1,83 @@
+// color
+
+$colorWhite: #ffffff;
+$colorWhiteDark: #e8e8e8;
+
+$colorGrayLight: #b8c0c6;
+$colorGray: #7d7d7d;
+$colorGrayDark: #4c4c4c;
+
+$colorBlack: #000000;
+$colorBlackText: #1f1f2a;
+
+$colorBlueLight: #52c4ff;
+$colorBlue: #00a8ff;
+$colorBlueDark: #0686ff;
+
+// media queries
+
+$desk-1920: 1920px;
+$desk-1680: 1680px;
+$desk-1440: 1440px;
+$desk-1366: 1366px;
+$desk-1024: 1024px;
+$mobile-900: 900px;
+$mobile-768: 768px;
+$mobile-600: 600px;
+$mobile-460: 460px;
+$mobile-420: 420px;
+$mobile-375: 375px;
+$mobile-320: 320px;
+
+// mixins
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -ms-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+
+@mixin transition($transition) {
+  transition: $transition;
+  -o-transition: $transition;
+  -moz-transition: $transition;
+  -webkit-transition: $transition;
+}
+
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  transform: $transform;
+}
+
+@mixin box-shadow($shadow) {
+  box-shadow: $shadow;
+  -ms-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+}
+
+@mixin blur($blur) {
+  -webkit-filter: blur($blur);
+  -moz-filter: blur($blur);
+  -o-filter: blur($blur);
+  -ms-filter: blur($blur);
+  filter: blur($blur);
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {
+    @content;
+  }
+  :-moz-placeholder {
+    @content;
+  }
+  ::-moz-placeholder {
+    @content;
+  }
+  :-ms-input-placeholder {
+    @content;
+  }
+}
