@@ -1,0 +1,14 @@
+@import "./../../../styles/variables";
+
+#currency {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: $colorGrayDark;
+  text-align: center;
+  background: transparent;
+  font: inherit;
+  opacity: 0;
+  position: absolute;
+}
