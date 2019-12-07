@@ -4,17 +4,13 @@ import "./Header.scss";
 import Button from "../../dumb/Button/Button";
 import Select from "../../dumb/Select/Select";
 
-import currency from "./../../../assets/json/currency";
-import { signInUrl } from "../../../helpers/constants";
-
-export default function Header() {
-  // extract 'currencies json' and distribute the items
-  const {
-    currencies: { important, others }
-  } = currency;
-
+export default function Header({ currencies, signInUrl }) {
+  // extract 'currencies' and distribute the items
+  const { important, others } = currencies;
+  // save the first value by default
   const firstItemValue = important[0].value;
   const [selectedCurrency, setCurrency] = useState(firstItemValue);
+  // go to signin url
   const goToSignIn = () => (window.location.href = signInUrl);
 
   return (
