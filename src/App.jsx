@@ -11,8 +11,9 @@ import FooterPanel from "./components/smart/Footer/Footer";
 
 import { brandUrl } from "./helpers/constants";
 import { signInUrl } from "./helpers/constants";
-import { landingQuestion } from "./helpers/copys";
 import { currencies } from "./assets/json/currency.json";
+import { magazines } from "./assets/json/magazines.json";
+import { landingQuestion, guideTexts } from "./helpers/copys";
 
 function App() {
   return (
@@ -25,8 +26,8 @@ function App() {
         }
       />
       <QuestionPanel textObject={landingQuestion} />
-      <MagazinePanel />
-      <GuidePanel />
+      <MagazinePanel logo={brandUrl} magazines={magazines} />
+      <GuidePanel textObject={guideTexts} />
       <DestinationsPanel />
       <FooterPanel />
     </div>

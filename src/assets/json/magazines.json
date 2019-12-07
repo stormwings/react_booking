@@ -1,0 +1,32 @@
+{
+  "magazines": [
+    {
+      "url": "https://magazine.trivago.com.ar/theme/internacional/",
+      "title": "Aventurate a viajar al exterior",
+      "subtitle": "140 + artículos",
+      "description": "Te traemos diferentes ideas de destinos internacionales para que tengas el mundo en tus manos.",
+      "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_300,q_auto,w_300/mag/2019/06/19090617/rsz-1fotolia-165115946-subscription-monthly-xxl.jpg"
+    },
+    {
+      "url": "https://magazine.trivago.com.ar/theme/romance/",
+      "title": "Planea tus vacaciones en pareja",
+      "subtitle": "110 + artículos",
+      "description": "Algunos de los mejores recuerdos románticos se crean en los viajes.",
+      "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_300,q_auto,w_300/mag/2018/04/25121433/hoteles-romanticos-buenos-aires-nikole-mock.jpg"
+    },
+    {
+      "url": "https://magazine.trivago.com.ar/type/playa/",
+      "title": "Disfrutá de las mejores playas",
+      "subtitle": "40 + artículos",
+      "description": "¿Playas en Brazil? Descubrí estas increíbles escapadas para tus vacaciones de verano.",
+      "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_300,q_auto,w_300/mag/2018/09/19105728/rsz-victor-freitas-656091-unsplash.jpg"
+    },
+    {
+      "url": "https://magazine.trivago.com.ar/?_gl=1%2a1o0huc1%2a_gcl_aw%2aR0NMLjE1NzU3NDgxNTIuQ2p3S0NBaUF1SzN2QlJCT0Vpd0ExSU1odW1za1p3clg3Mm00Y05WYkotbmFGbmhhNENSYXotSlhQSjBlM3pvOFFnVkY0aXp0MlJIWGlSb0NLYW9RQXZEX0J3RQ..",
+      "title": "Descubrí más artículos inspiradores",
+      "subtitle": "70 + artículos",
+      "description": "Explora cientos de artículos y encuentra inspiración para tu próxima aventura.",
+      "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_300,q_auto,w_300/mag/2019/05/28100455/eyeem-100000323-126180008-1.jpg"
+    }
+  ]
+}

@@ -1,11 +1,21 @@
+@import "./../../../styles/variables";
+
 .block--text {
   display: flex;
   flex-wrap: wrap;
+
+  @media screen and (max-width: $mobile-768) {
+    flex-direction: column;
+  }
 }
 
 .block--text--item {
   &.double {
     width: 50%;
+
+    @media screen and (max-width: $mobile-768) {
+      width: 100%;
+    }
   }
 }
 
