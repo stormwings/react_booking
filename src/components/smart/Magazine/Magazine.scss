@@ -1,0 +1,95 @@
+@import "./../../../styles/variables";
+
+#magazine_panel {
+  padding: 90px 0;
+
+  .hero--image {
+    width: 100px;
+
+    @media screen and (max-width: $mobile-768) {
+      margin: 0 auto 15px auto;
+    }
+    @media screen and (min-width: $mobile-460) and (max-width: $mobile-768) {
+      width: 180px;
+    }
+
+    &__logo {
+      width: 100%;
+    }
+  }
+
+  .global--title {
+    width: 100%;
+    color: $colorBlackText;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 38px;
+    text-align: center;
+    @media screen and (max-width: $mobile-768) {
+      max-width: 100%;
+      margin: 0 auto 30px;
+    }
+  }
+
+  .magazine--list {
+    padding-left: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+
+    @media screen and (max-width: $mobile-768) {
+      justify-content: center;
+    }
+
+    .magazine--list-item {
+      width: 22%;
+      padding: 0 1%;
+      height: auto;
+      @media screen and (max-width: $mobile-768) {
+        width: 40%;
+      }
+      .item-img {
+        width: 100%;
+        margin: 0;
+        border-radius: 2px;
+        box-shadow: 0 1px 4px rgba(41, 51, 57, 0.5);
+        overflow: hidden;
+      }
+
+      .item-span {
+        color: $colorGray;
+        font-size: 14px;
+      }
+
+      .item-title {
+        margin: 10px 0 0 0;
+        height: auto;
+        color: $colorBlack;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        @media screen and (max-width: $mobile-900) {
+          width: 100%;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+
+      .item-text {
+        margin: 0px;
+        height: auto;
+        min-height: 130px;
+        color: $colorGrayDark;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+      }
+      .box-cta--link {
+        max-width: 190px;
+        height: 45px;
+      }
+    }
+  }
+}
