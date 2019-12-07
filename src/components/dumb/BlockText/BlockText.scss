@@ -1,0 +1,26 @@
+.block--text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block--text--item {
+  &.double {
+    width: 50%;
+  }
+}
+
+.global--title {
+  margin: 20px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.global--subtitle {
+  margin: 0 20px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 300;
+}

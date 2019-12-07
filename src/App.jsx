@@ -11,6 +11,7 @@ import FooterPanel from "./components/smart/Footer/Footer";
 
 import { brandUrl } from "./helpers/constants";
 import { signInUrl } from "./helpers/constants";
+import { landingQuestion } from "./helpers/copys";
 import { currencies } from "./assets/json/currency.json";
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
           "Encontrá tu hotel ideal y compará precios de diferentes páginas web"
         }
       />
-      <QuestionPanel />
+      <QuestionPanel textObject={landingQuestion} />
       <MagazinePanel />
       <GuidePanel />
       <DestinationsPanel />
