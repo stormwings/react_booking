@@ -21,4 +21,38 @@
       width: 100%;
     }
   }
+
+  .input--container {
+    width: 100%;
+    color: $colorGrayDark;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 8px;
+    display: flex;
+
+    @media screen and (max-width: $mobile-768) {
+      flex-wrap: wrap;
+    }
+
+    .input--button {
+      outline: none;
+      font: inherit;
+      text-align: center;
+      font-weight: 700;
+      color: $colorWhite;
+      cursor: pointer;
+      background-color: $colorBlue;
+      border: 1px solid $colorBlue;
+      border-bottom: 1px solid $colorBlueDark;
+      font-size: 16px;
+      height: 44px;
+      margin-top: 0;
+      flex-shrink: 0;
+      flex-basis: auto;
+      max-width: none;
+      padding: 0 16px;
+      width: 113px;
+      flex-grow: 1;
+    }
+  }
 }

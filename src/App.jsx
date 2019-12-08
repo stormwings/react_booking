@@ -10,19 +10,19 @@ import DestinationsPanel from "./components/smart/Destinations/Destinations";
 import FooterPanel from "./components/smart/Footer/Footer";
 import Suggestions from "./components/smart/Suggestions/Suggestions";
 
-import { brandUrl } from "./helpers/constants";
-import { signInUrl } from "./helpers/constants";
 import { currencies } from "./assets/json/currency.json";
 import { magazines } from "./assets/json/magazines.json";
 import { suggestions } from "./assets/json/suggestions.json";
 import { destinations } from "./assets/json/destinations.json";
+
+import { brandUrl, signInUrl, searchUrl } from "./helpers/constants";
 import { landingQuestion, guideTexts, heroText } from "./helpers/copys";
 
 export default function App() {
   return (
     <div className="App">
       <HeaderPanel signInUrl={signInUrl} currencies={currencies} />
-      <HeroPanel logo={brandUrl} subtitle={heroText} />
+      <HeroPanel logo={brandUrl} subtitle={heroText} searchUrl={searchUrl} />
       <QuestionPanel textObject={landingQuestion} />
       <MagazinePanel logo={brandUrl} magazines={magazines} />
       <Suggestions suggestionsList={suggestions} />
