@@ -18,6 +18,11 @@
   font-weight: 700;
   display: flex;
 
+  @media screen and (max-width: $mobile-460) {
+    width: 100%;
+    justify-content: center;
+  }
+
   .tabs__label {
     padding: 16px 8px;
     color: $colorGrayDark;
