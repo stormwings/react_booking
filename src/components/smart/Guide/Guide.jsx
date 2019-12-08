@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BlockText } from "../../dumb/BlockText/BlockText";
+import { BlockText } from "./../../dumb/BlockText/BlockText";
 
 export default function Guide({ textObject }) {
   return (

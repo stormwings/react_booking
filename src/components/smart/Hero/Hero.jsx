@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.scss";
 
-import Brand from "../../dumb/Brand/Brand";
+import Brand from "./../../dumb/Brand/Brand";
 
 const Subtitle = ({ className, content }) => (
   <h2 className={className ? className : ""}>{content}</h2>

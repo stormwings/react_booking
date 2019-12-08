@@ -1,8 +1,8 @@
 import React from "react";
 import "./Magazine.scss";
 
-import Brand from "../../dumb/Brand/Brand";
-import Card from "../../dumb/Card/Card";
+import Brand from "./../../dumb/Brand/Brand";
+import Card from "./../../dumb/Card/Card";
 
 export default function Magazine({ logo, magazines }) {
   return (

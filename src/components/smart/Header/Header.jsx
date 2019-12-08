@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Header.scss";
 
-import Button from "../../dumb/Button/Button";
-import Select from "../../dumb/Select/Select";
+import Button from "./../../dumb/Button/Button";
+import Select from "./../../dumb/Select/Select";
 
 export default function Header({ currencies, signInUrl }) {
   // extract 'currencies' and distribute the items

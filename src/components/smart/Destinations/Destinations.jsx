@@ -1,7 +1,8 @@
 import React from "react";
 import "./Destination.scss";
 
-import { Subtitle } from "../../dumb/BlockText/BlockText";
+// import { Subtitle } from "./../../dumb/BlockText/BlockText";
+import { Subtitle } from "./../../dumb/BlockText/BlockText";
 
 export default function Destinations({ destinations }) {
   const { featured, international } = destinations;

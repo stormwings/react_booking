@@ -1,6 +1,6 @@
 {
-  "name": "react_holidays",
-  "version": "0.1.0",
+  "name": "react_booking",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -8,7 +8,8 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "react-slick": "^0.25.2"
   },
   "scripts": {
     "start": "react-scripts start",

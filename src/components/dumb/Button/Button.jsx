@@ -2,12 +2,12 @@ import React from "react";
 import "./Button.scss";
 
 export default function Button(props) {
-  const { content, onClick } = props;
+  const { content, onClick, className } = props;
 
   return (
     <button
       type="button"
-      className="button"
+      className={className ? className : "button"}
       onClick={() => (onClick ? onClick() : defaultProps.onClick())}
     >
       <span>{content}</span>

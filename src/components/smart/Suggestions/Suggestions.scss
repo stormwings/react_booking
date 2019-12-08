@@ -1,0 +1,36 @@
+@import "./../../../styles/variables";
+
+#suggestions_panel {
+  padding: 50px 0;
+  margin-bottom: 60px;
+
+  .list {
+    width: 100%;
+  }
+}
+
+.tabs__item {
+  margin: 20px 0;
+  width: 400px;
+  color: $colorGrayDark;
+  font-family: Arial, Helvetica, Sans, Sans-Serif, Sans Serif;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+
+  .tabs__label {
+    padding: 16px 8px;
+    color: $colorGrayDark;
+    border: 0;
+    font: inherit;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+
+    &.selected {
+      border-bottom-color: $colorGrayDark;
+    }
+  }
+}

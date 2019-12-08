@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.scss";
 
-import Brand from "../../dumb/Brand/Brand";
+import Brand from "./../../dumb/Brand/Brand";
 
 export default function Footer({ logo }) {
   const year = new Date().getFullYear();

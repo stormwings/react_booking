@@ -3,8 +3,8 @@ import "./BlockText.scss";
 
 // text types components
 
-export const Title = ({ content }) => (
-  <h2 className="global--title">{content}</h2>
+export const Title = ({ content, className }) => (
+  <h2 className={`global--title ${className}`}>{content}</h2>
 );
 
 export const Subtitle = ({ content, className }) => (
