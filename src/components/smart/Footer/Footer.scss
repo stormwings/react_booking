@@ -2,7 +2,6 @@
 
 #footer_panel {
   .footer__secondary {
-    height: auto;
     padding: 32px;
     margin-top: 0;
     line-height: 1.25;
@@ -10,13 +9,9 @@
     background-color: $colorGrayDark;
     font-size: 12px;
 
-    svg {
-      width: 102;
-      height: 32;
+    .brand--logo {
+      width: 102px;
       margin: 0 auto;
-      line-height: 1.25;
-      font-size: 12px;
-      display: block;
     }
     .footer__copyright-text {
       width: 100%;

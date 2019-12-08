@@ -13,23 +13,19 @@ import { brandUrl } from "./helpers/constants";
 import { signInUrl } from "./helpers/constants";
 import { currencies } from "./assets/json/currency.json";
 import { magazines } from "./assets/json/magazines.json";
-import { landingQuestion, guideTexts } from "./helpers/copys";
+import { destinations } from "./assets/json/destinations.json";
+import { landingQuestion, guideTexts, heroText } from "./helpers/copys";
 
 function App() {
   return (
     <div className="App">
       <HeaderPanel signInUrl={signInUrl} currencies={currencies} />
-      <HeroPanel
-        logo={brandUrl}
-        subtitle={
-          "Encontrá tu hotel ideal y compará precios de diferentes páginas web"
-        }
-      />
+      <HeroPanel logo={brandUrl} subtitle={heroText} />
       <QuestionPanel textObject={landingQuestion} />
       <MagazinePanel logo={brandUrl} magazines={magazines} />
       <GuidePanel textObject={guideTexts} />
-      <DestinationsPanel />
-      <FooterPanel />
+      <DestinationsPanel destinations={destinations} />
+      <FooterPanel logo={brandUrl} />
     </div>
   );
 }

@@ -7,6 +7,10 @@ export const Title = ({ content }) => (
   <h2 className="global--title">{content}</h2>
 );
 
+export const Subtitle = ({ content, className }) => (
+  <h3 className={className ? className : "global--subtitle"}>{content}</h3>
+);
+
 export const Paragraph = ({ content }) => (
   <p className="global--subtitle">{content}</p>
 );

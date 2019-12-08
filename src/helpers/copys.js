@@ -1,3 +1,7 @@
+// landing copy hero
+export const heroText =
+  "Encontrá tu hotel ideal y compará precios de diferentes páginas web";
+
 // landing copy question
 export const landingQuestion = {
   title: "¿Necesitás ideas para tu próximo viaje?",

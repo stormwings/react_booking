@@ -1,0 +1,194 @@
+{
+  "destinations": {
+    "featured": [
+      {
+        "name": "Puerto Iguazú",
+        "url": "https://trivago.com.ar/puerto-iguazu-103246/hotel"
+      },
+      {
+        "name": "Puerto Madryn",
+        "url": "https://trivago.com.ar/puerto-madryn-115427/hotel"
+      },
+      {
+        "name": "Punta del Este",
+        "url": "https://trivago.com.ar/punta-del-este-202951/hotel"
+      },
+      {
+        "name": "Rosario",
+        "url": "https://trivago.com.ar/rosario-151036/hotel"
+      },
+      {
+        "name": "Salta Capital",
+        "url": "https://trivago.com.ar/salta-capital-93160/hotel"
+      },
+      {
+        "name": "San Carlos de Bariloche",
+        "url": "https://trivago.com.ar/san-carlos-de-bariloche-115462/hotel"
+      },
+      {
+        "name": "San Luis Capital",
+        "url": "https://trivago.com.ar/san-luis-capital-93162/hotel"
+      },
+      {
+        "name": "San Miguel de Tucumán",
+        "url": "https://trivago.com.ar/san-miguel-de-tucuman-155636/hotel"
+      },
+      { "name": "Tandil", "url": "https://trivago.com.ar/tandil-448717/hotel" },
+      {
+        "name": "Tierra del Fuego",
+        "url": "https://trivago.com.ar/tierra-del-fuego-93143/hotel"
+      },
+      {
+        "name": "Ushuaia",
+        "url": "https://trivago.com.ar/ushuaia-116671/hotel"
+      },
+      {
+        "name": "Villa Carlos Paz",
+        "url": "https://trivago.com.ar/villa-carlos-paz-116656/hotel"
+      },
+      {
+        "name": "Villa Gesell",
+        "url": "https://trivago.com.ar/villa-gesell-201541/hotel"
+      },
+      {
+        "name": "Villa La Angostura",
+        "url": "https://trivago.com.ar/villa-la-angostura-115457/hotel"
+      },
+      {
+        "name": "Belo Horizonte",
+        "url": "https://trivago.com.ar/belo-horizonte-77213/hotel"
+      },
+      { "name": "Búzios", "url": "https://trivago.com.ar/buzios-78514/hotel" },
+      {
+        "name": "Distrito Capital",
+        "url": "https://trivago.com.ar/distrito-capital-86367/hotel"
+      },
+      {
+        "name": "Barcelona",
+        "url": "https://trivago.com.ar/barcelona-31965/hotel"
+      },
+      { "name": "Recife", "url": "https://trivago.com.ar/recife-78464/hotel" },
+      {
+        "name": "Río de Janeiro",
+        "url": "https://trivago.com.ar/rio-de-janeiro-78506/hotel"
+      },
+      {
+        "name": "Colonia del Sacramento",
+        "url": "https://trivago.com.ar/colonia-del-sacramento-87242/hotel"
+      },
+      {
+        "name": "El Calafate",
+        "url": "https://trivago.com.ar/el-calafate-116666/hotel"
+      },
+      {
+        "name": "Florianópolis",
+        "url": "https://trivago.com.ar/florianopolis-79148/hotel"
+      },
+      {
+        "name": "Cartagena",
+        "url": "https://trivago.com.ar/cartagena-85328/hotel"
+      },
+      {
+        "name": "San Pablo",
+        "url": "https://trivago.com.ar/san-pablo-79447/hotel"
+      },
+      {
+        "name": "Santa Fe Capital",
+        "url": "https://trivago.com.ar/santa-fe-capital-93164/hotel"
+      },
+      {
+        "name": "Santiago",
+        "url": "https://trivago.com.ar/santiago-102067/hotel"
+      },
+      { "name": "Berlín", "url": "https://trivago.com.ar/berlin-8514/hotel" },
+      {
+        "name": "Camboriú",
+        "url": "https://trivago.com.ar/camboriu-79199/hotel"
+      },
+      { "name": "Lima", "url": "https://trivago.com.ar/lima-86439/hotel" },
+      {
+        "name": "Londres",
+        "url": "https://trivago.com.ar/londres-38715/hotel"
+      },
+      {
+        "name": "Machu Picchu",
+        "url": "https://trivago.com.ar/machu-picchu-476921/hotel"
+      },
+      { "name": "Madrid", "url": "https://trivago.com.ar/madrid-32027/hotel" },
+      {
+        "name": "Montevideo",
+        "url": "https://trivago.com.ar/montevideo-87248/hotel"
+      },
+      {
+        "name": "New York",
+        "url": "https://trivago.com.ar/new-york-34812/hotel"
+      },
+      {
+        "name": "Orlando",
+        "url": "https://trivago.com.ar/orlando-34390/hotel"
+      },
+      {
+        "name": "Ciudad de Panamá",
+        "url": "https://trivago.com.ar/ciudad-de-panama-86285/hotel"
+      },
+      { "name": "París", "url": "https://trivago.com.ar/paris-36103/hotel" },
+      { "name": "Venecia", "url": "https://trivago.com.ar/venecia-94718/hotel" }
+    ],
+    "international": [
+      { "name": "trivago العالم العربي", "url": "https://ar.trivago.com" },
+      { "name": "trivago Australia", "url": "https://www.trivago.com.au" },
+      { "name": "trivago България", "url": "https://www.trivago.bg" },
+      { "name": "trivago België", "url": "https://www.trivago.be" },
+      { "name": "trivago Brasil", "url": "https://www.trivago.com.br" },
+      { "name": "trivago Canada", "url": "https://www.trivago.ca" },
+      { "name": "trivago Česko", "url": "https://www.trivago.cz" },
+      { "name": "trivago Chile", "url": "https://www.trivago.cl" },
+      { "name": "trivago Colombia", "url": "https://www.trivago.com.co" },
+      { "name": "trivago Danmark", "url": "https://www.trivago.dk" },
+      { "name": "trivago Deutschland", "url": "https://www.trivago.de" },
+      { "name": "trivago Ecuador", "url": "https://www.trivago.com.ec" },
+      { "name": "trivago Ελλάδα", "url": "https://www.trivago.gr" },
+      { "name": "trivago España", "url": "https://www.trivago.es" },
+      { "name": "trivago France", "url": "https://www.trivago.fr" },
+      { "name": "trivago 한국", "url": "https://www.trivago.co.kr" },
+      { "name": "trivago Hrvatska", "url": "https://www.trivago.hr" },
+      { "name": "trivago India", "url": "https://www.trivago.in" },
+      { "name": "trivago Indonesia", "url": "https://www.trivago.co.id" },
+      { "name": "trivago Ireland", "url": "https://www.trivago.ie" },
+      { "name": "trivago Italia", "url": "https://www.trivago.it" },
+      { "name": "trivago Magyarország", "url": "https://www.trivago.hu" },
+      { "name": "trivago Malaysia", "url": "https://www.trivago.com.my" },
+      { "name": "trivago México", "url": "https://www.trivago.com.mx" },
+      { "name": "trivago Nederland", "url": "https://www.trivago.nl" },
+      { "name": "trivago New Zealand", "url": "https://www.trivago.co.nz" },
+      { "name": "trivago Norge", "url": "https://www.trivago.no" },
+      { "name": "trivago Österreich", "url": "https://www.trivago.at" },
+      { "name": "trivago Perú", "url": "https://www.trivago.pe" },
+      { "name": "trivago Philippines", "url": "https://www.trivago.com.ph" },
+      { "name": "trivago Polska", "url": "https://www.trivago.pl" },
+      { "name": "trivago Portugal", "url": "https://www.trivago.pt" },
+      { "name": "trivago ประเทศไทย", "url": "https://www.trivago.co.th" },
+      { "name": "trivago 日本", "url": "https://www.trivago.jp" },
+      { "name": "trivago România", "url": "https://www.trivago.ro" },
+      { "name": "trivago Россия", "url": "https://www.trivago.ru" },
+      { "name": "trivago Schweiz", "url": "https://www.trivago.ch" },
+      { "name": "trivago Singapore", "url": "https://www.trivago.sg" },
+      { "name": "trivago Slovenija", "url": "https://www.trivago.si" },
+      { "name": "trivago Slovensko", "url": "https://www.trivago.sk" },
+      { "name": "trivago South Africa", "url": "https://www.trivago.co.za" },
+      { "name": "trivago Srbija", "url": "https://www.trivago.rs" },
+      { "name": "trivago Suomi", "url": "https://www.trivago.fi" },
+      { "name": "trivago Sverige", "url": "https://www.trivago.se" },
+      { "name": "trivago 台灣", "url": "https://www.trivago.com.tw" },
+      { "name": "trivago Türkiye", "url": "https://www.trivago.com.tr" },
+      { "name": "trivago UAE", "url": "https://www.trivago.ae" },
+      { "name": "trivago United Kingdom", "url": "https://www.trivago.co.uk" },
+      { "name": "trivago Uruguay", "url": "https://www.trivago.com.uy" },
+      { "name": "trivago USA", "url": "https://www.trivago.com" },
+      { "name": "trivago Việt Nam", "url": "https://www.trivago.vn" },
+      { "name": "trivago 香港", "url": "https://www.trivago.hk" },
+      { "name": "trivago ישראל", "url": "https://www.trivago.co.il" },
+      { "name": "trivago 中国", "url": "https://www.youzhan.com" }
+    ]
+  }
+}
