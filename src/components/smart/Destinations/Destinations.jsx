@@ -1,10 +1,9 @@
 import React from "react";
 import "./Destination.scss";
-
-// import { Subtitle } from "./../../dumb/BlockText/BlockText";
 import { Subtitle } from "./../../dumb/BlockText/BlockText";
 
 export default function Destinations({ destinations }) {
+  // render the destination lists
   const { featured, international } = destinations;
 
   return (
@@ -29,6 +28,7 @@ export default function Destinations({ destinations }) {
   );
 }
 
+// to render single list
 const DestinationList = ({ list }) => (
   <ul className="location--container">
     {list.map((item, i) => (
@@ -37,6 +37,7 @@ const DestinationList = ({ list }) => (
   </ul>
 );
 
+// to render list item
 const DestinationItem = ({ url, name }) => (
   <li className="location--item">
     <a className="location--item__url" href={url}>

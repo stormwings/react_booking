@@ -11,8 +11,8 @@ export const Subtitle = ({ content, className }) => (
   <h3 className={className ? className : "global--subtitle"}>{content}</h3>
 );
 
-export const Paragraph = ({ content }) => (
-  <p className="global--subtitle">{content}</p>
+export const Paragraph = ({ content, className }) => (
+  <p className={className ? className : "global--subtitle"}>{content}</p>
 );
 
 export const BlockTextItem = ({ title, description, className }) => (
@@ -22,8 +22,18 @@ export const BlockTextItem = ({ title, description, className }) => (
   </div>
 );
 
+export const Copyright = ({ className }) => {
+  const year = new Date().getFullYear();
+
+  return (
+    <small className={className ? className : "global--copyright"}>
+      Copyright {year} trivago | Todos los derechos reservados.
+    </small>
+  );
+};
+
 export const BlockText = props => {
-  // receives an array object that orders depending on the cuantity
+  // receives a text array that orders depending on the cuantity
   const { textsArray } = props;
   const isSingle = textsArray.length === 1 ? "single" : "double";
 

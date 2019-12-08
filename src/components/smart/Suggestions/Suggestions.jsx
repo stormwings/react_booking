@@ -5,41 +5,7 @@ import "./Suggestions.scss";
 import Card from "./../../dumb/Card/Card";
 import Button from "./../../dumb/Button/Button";
 import { Title } from "./../../dumb/BlockText/BlockText";
-
-// slider configs
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        initialSlide: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-};
+import { sliderSettings } from "./styles";
 
 export default function Suggestions({ suggestionsList }) {
   // get and build the object lists
@@ -47,7 +13,7 @@ export default function Suggestions({ suggestionsList }) {
   const principalList = { switchTab: false, list: principals };
   const suggestionList = { switchTab: true, list: suggestions };
 
-  // create hook handler
+  // create hook handler (use suggestionlist as default)
   const [tab, setTab] = useState(suggestionList);
 
   // switch "list" after click
@@ -61,6 +27,7 @@ export default function Suggestions({ suggestionsList }) {
           content={"¿No sabés a dónde viajar? Descubrí nuestras ideas."}
           className={"no-margin"}
         />
+        {/* tab button handler (change the list) */}
         <li role="tab" className="tabs__item">
           <Button
             content={"Ciudades Destacadas"}
@@ -74,7 +41,8 @@ export default function Suggestions({ suggestionsList }) {
           />
         </li>
         <div className="list">
-          <Slider {...settings}>
+          <Slider {...sliderSettings}>
+            {/* render the selected list */}
             {tab.list.map(({ title, image, url, hotels, average }, i) => (
               <Card
                 key={i}

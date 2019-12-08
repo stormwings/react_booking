@@ -1,6 +1,6 @@
 @import "./../../../styles/variables";
 
-.input-wrapper {
+.input--wrapper {
   width: 100%;
   font-family: "Lato", sans-serif;
   position: relative;
@@ -66,26 +66,11 @@
         }
       }
     }
-
-    &.select {
-      padding-left: 45px;
-
-      @media screen and (max-width: $mobile-768) {
-        padding-left: 42%;
-      }
-      @media screen and (max-width: $mobile-600) {
-        padding-left: 40%;
-      }
-      @media screen and (max-width: $mobile-460) {
-        padding-left: 36%;
-      }
-    }
   }
 
-  .search-form__button {
+  .input--icon {
     position: absolute;
     top: 13px;
-    left: 15px;
     height: 20px;
     width: 20px;
     padding: 0;
@@ -94,6 +79,17 @@
     background: none;
     outline: none !important;
     cursor: pointer;
+
+    &.left {
+      left: 15px;
+    }
+    &.right {
+      right: 40px;
+
+      @media screen and (max-width: $desk-1024) {
+        right: 15px;
+      }
+    }
 
     &__icon {
       width: 20px;

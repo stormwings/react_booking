@@ -1,20 +1,18 @@
 import React from "react";
 import "./Magazine.scss";
 
-import Brand from "./../../dumb/Brand/Brand";
-import Card from "./../../dumb/Card/Card";
+import Image from "../../dumb/Image/Image";
+import { CardList } from "./../../dumb/Card/Card";
 
 export default function Magazine({ logo, magazines }) {
   return (
     <section id="magazine_panel">
       <div className="wrapper">
         <div className="brand--image">
-          <Brand image={logo} className={"hero--image__logo"} />
+          <Image image={logo} className={"hero--image__logo"} />
         </div>
         <div className="list">
-          {magazines.map((magazine, i) => (
-            <Card key={i} {...magazine} />
-          ))}
+          <CardList articles={magazines} />
         </div>
       </div>
     </section>

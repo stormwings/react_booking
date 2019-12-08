@@ -7,7 +7,7 @@ import Select from "./../../dumb/Select/Select";
 export default function Header({ currencies, signInUrl }) {
   // extract 'currencies' and distribute the items
   const { important, others } = currencies;
-  // save the first value by default
+  // save the first value to set as default
   const firstItemValue = important[0].value;
   const [selectedCurrency, setCurrency] = useState(firstItemValue);
   // go to signin url

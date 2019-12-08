@@ -1,6 +1,4 @@
 import React from "react";
-import "./Question.scss";
-
 import { BlockText } from "./../../dumb/BlockText/BlockText";
 
 export default function Question({ textObject }) {
