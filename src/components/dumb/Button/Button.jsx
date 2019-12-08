@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./Button.scss";
 
 export default function Button(props) {
@@ -14,6 +15,11 @@ export default function Button(props) {
     </button>
   );
 }
+Button.propTypes = {
+  content: PropTypes.string,
+  onClick: PropTypes.func,
+  className: PropTypes.string
+};
 
 const defaultProps = {
   onClick: () => console.log("onClick empty")

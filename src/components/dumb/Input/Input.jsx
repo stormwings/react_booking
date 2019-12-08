@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
+import PropTypes from "prop-types";
 import Select from "react-select";
 import "react-datepicker/dist/react-datepicker.css";
 import "./Input.scss";
@@ -27,6 +28,12 @@ export default function Input(props) {
     </div>
   );
 }
+Input.propTypes = {
+  className: PropTypes.string,
+  value: PropTypes.string,
+  name: PropTypes.string,
+  placeholder: PropTypes.string
+};
 
 // Date Input
 export const InputDate = props => {
@@ -58,6 +65,9 @@ export const InputDate = props => {
       </button>
     </div>
   );
+};
+InputDate.propTypes = {
+  className: PropTypes.string
 };
 
 // Select Input Options
@@ -100,4 +110,7 @@ export const InputSelect = props => {
       </button>
     </div>
   );
+};
+InputSelect.propTypes = {
+  className: PropTypes.string
 };

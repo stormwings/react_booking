@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import PropTypes from "prop-types";
 import "./Select.scss";
 
 export default function Select(props) {
@@ -19,6 +20,11 @@ export default function Select(props) {
     </select>
   );
 }
+Select.propTypes = {
+  importantItems: PropTypes.object,
+  secondaryItems: PropTypes.object,
+  onSelectItem: PropTypes.func
+};
 
 const OptionGroup = ({ items }) => {
   // to render differents list types
@@ -34,6 +40,13 @@ const OptionGroup = ({ items }) => {
     </optgroup>
   );
 };
+OptionGroup.propTypes = {
+  items: PropTypes.object
+};
 
 // render select's option
 const Option = ({ value, content }) => <option value={value}>{content}</option>;
+Option.propTypes = {
+  value: PropTypes.string,
+  content: PropTypes.string
+};

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./Card.scss";
 
 export default function Card(props) {
@@ -15,6 +16,14 @@ export default function Card(props) {
     </div>
   );
 }
+Card.propTypes = {
+  subtitle: PropTypes.string,
+  url: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.string,
+  className: PropTypes.string
+};
 
 const defaultProps = {
   url: "#"

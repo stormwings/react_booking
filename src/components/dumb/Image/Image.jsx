@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./Image.scss";
 
 export default function Image({ image, className, alt }) {
@@ -8,3 +9,8 @@ export default function Image({ image, className, alt }) {
     </div>
   );
 }
+Image.propTypes = {
+  image: PropTypes.string,
+  className: PropTypes.string,
+  alt: PropTypes.string
+};
