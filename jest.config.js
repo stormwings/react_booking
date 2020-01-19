@@ -1,7 +1,7 @@
-// module.exports = {
-//   collectCoverageFrom: ["src/**/*.{js,jsx,mjs}"],
-//   testMatch: [
-//     "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
-//     "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
-//   ]
-// };
+module.exports = {
+  verbose: true,
+  setupFilesAfterEnv: ["<rootDir>/src/__test__/setupTest.js"],
+  moduleNameMapper: {
+    "\\.(css|scss)$": "<rootDir>/src/__mocks__/styleMock.js"
+  }
+};
